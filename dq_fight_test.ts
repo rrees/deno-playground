@@ -1,4 +1,4 @@
-import * as mod from "https://deno.land/std@0.192.0/testing/asserts.ts";
+import * as asserts from "https://deno.land/std@0.192.0/testing/asserts.ts";
 
 import {determineDamage} from './dq_fight.ts';
 
@@ -14,5 +14,5 @@ const defaultMonster = {
 
 Deno.test('Check calculate with brawn and armour', () => {
 	const result = determineDamage(defaultHero, defaultMonster, 3);
-	mod.assertEquals(result, 2);
+	asserts.assertEquals(result, 2);
 });

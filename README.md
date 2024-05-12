@@ -1,1 +1,3 @@
-# deno-playground
+# Deno playground
+
+`deno run <filename>`

@@ -13,7 +13,7 @@ new Text({
 	parent: ui,
 	text: "Hello sailor",
 	theme: {
-		base: crayon.bgRed,
+		base: crayon.white,
 	},
 	rectangle: {
 		column: 1,

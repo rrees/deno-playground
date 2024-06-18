@@ -1,4 +1,3 @@
-
 export class IdString {
     static readonly #encodingLetters = "abcdefghijkmnpqrstuvwxyz"
         + "123456789"
